@@ -6,9 +6,9 @@ CELERY_RESULT_BACKEND = 'django-db'
 # gmail smtp settings
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'rabbanibcs@gmail.com'
-EMAIL_HOST_PASSWORD = 'itihwnlpnnhibtei' #pass the key or password app here
-# EMAIL_HOST_PASSWORD='@rifr@bb@ni'
+EMAIL_HOST_USER = 'example@gmail.com'
+EMAIL_HOST_PASSWORD = '' #pass the key or password app here
+# EMAIL_HOST_PASSWORD='password here'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'rabbanibcs@gmail.com'
